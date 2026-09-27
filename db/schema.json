@@ -1,1 +1,14 @@
-{"tables":{"tasks":{"fields":{"id":{"type":"id","required":true},"title":{"type":"string","required":true},"completed":{"type":"boolean","required":true},"dueDate":{"type":"date","required":false},"createdAt":{"type":"date","required":true}},"relations":{}}}}
+{
+  "tables": {
+    "tasks": {
+      "fields": {
+        "id": { "type": "id", "required": true },
+        "title": { "type": "string", "required": true },
+        "completed": { "type": "boolean", "required": true },
+        "dueDate": { "type": "date", "required": false },
+        "createdAt": { "type": "date", "required": true }
+      },
+      "relations": {}
+    }
+  }
+}
